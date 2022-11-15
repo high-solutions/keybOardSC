@@ -31,6 +31,6 @@ Vista R3 specific is in the making.
 
 Python3.9
 Dependencies used:
-Keyboard
-Pyside6
+Keyboard, 
+Pyside6, 
 pyinstaller
