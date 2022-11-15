@@ -4,7 +4,11 @@ An OSC (open sound control) keyboard controller
 This little script/app receives osc commands on a selected port,
 and converts them to keyboard keypresses and keycombo's.
 
-For now only keybOardSC-powerpoint is compiled in to an osX app but the scripts should work on osX, Windows and linux.
+For now only keybOardSC-powerpoint can be compiled with
+```
+pyinstaller keybOardSC-powerpoint.py -w
+```
+in to an OSX app but the scripts should work on OSX, Windows and linux.
 
 General osc messages examples:
 ```
@@ -29,3 +33,4 @@ Python3.9
 Dependencies used:
 Keyboard
 Pyside6
+pyinstaller
