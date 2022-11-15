@@ -33,4 +33,5 @@ Python3.9
 Dependencies used:
 Keyboard, 
 Pyside6, 
+pythonosc,
 pyinstaller
