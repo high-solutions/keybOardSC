@@ -29,9 +29,10 @@ Powerpoint specific commands:
 Vista R3 specific is in the making.
 
 
-Python3.9
-Dependencies used:
+Python3.9 - Dependencies used:
+```
 Keyboard, 
 Pyside6, 
 pythonosc,
 pyinstaller
+```
