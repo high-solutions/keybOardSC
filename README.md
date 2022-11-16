@@ -6,11 +6,13 @@ An OSC (open sound control) keyboard controller
 This little script/app receives osc commands on a selected port,
 and converts them to keyboard keypresses and keycombo's.
 
-For now only keybOardSC-powerpoint can be compiled with
+For now only keybOardSC-powerpoint is compiled with
 ```
-pyinstaller keybOardSC-powerpoint.py -w
+pyinstaller keybOardSC-powerpoint.py --icon=img/kOSC_wit.png --add-data=img/kOSC.png:. --add-data=img/kOSC_wit.png:.  -w
 ```
-in to an OSX app but the scripts should work on OSX, Windows and linux.
+In to an OSX app but the scripts should work on OSX, Windows and linux. 
+You can find the app here:
+https://drive.google.com/drive/folders/1rWGJPP05VfSm9tgMf3DJFovzWrA7SOMl?usp=sharing
 
 General osc messages examples:
 ```
