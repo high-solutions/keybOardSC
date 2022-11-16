@@ -1,4 +1,6 @@
 # keybOardSC
+![kOSC_wit](https://user-images.githubusercontent.com/65037030/202287227-b4f08bf8-f9af-4fae-8874-c086fe87a868.png)
+
 An OSC (open sound control) keyboard controller
 
 This little script/app receives osc commands on a selected port,
